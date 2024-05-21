@@ -1,0 +1,18 @@
+{
+  "name": "voterly-maintenance",
+  "version": "1.0.0",
+  "description": "The static maintenance page for Voterly that we can display when doing work on the site",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && mkdir build && cp index.html build/index.html && sass --update style:build/style --style expanded  && cp -r assets/ build/assets/",
+    "start": "npm run clean && mkdir build && cp index.html build/index.html && sass --update style:build/style --style compressed  && cp -r assets/ build/assets/ && npx serve build/",
+    "clean": "rm -rf build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.4",
+    "serve": "^11.3.2"
+  }
+}

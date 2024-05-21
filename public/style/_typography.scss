@@ -1,0 +1,173 @@
+/***********************************************************
+ * Typography
+ ***********************************************************/
+.hero-text {
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: -0.02px;
+
+    @include tablet {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+.hero-thin {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 34px;
+    letter-spacing: -0.02px;
+
+    @include tablet {
+        font-size: 60px;
+        line-height: 60px;
+        letter-spacing: -0.38px;
+    }
+}
+
+.headline {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+
+    @include tablet {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
+
+.headline-large-content {
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 42px;
+
+    @include tablet {
+        font-size: 40px;
+        line-height: 51px;
+        letter-spacing: -0.1px;
+    }
+}
+
+.headline-bold {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+
+    @include tablet {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+.headline-large {
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 34px;
+
+    @include tablet {
+        font-size: 33px;
+        line-height: 38px;
+    }
+}
+
+.headline-large-normal {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.17px;
+
+    @include tablet {
+        font-size: 34px;
+        line-height: 34px;
+        letter-spacing: -0.23px;
+    }
+}
+
+.headline-thin {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    @include tablet {
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+
+.headline-large-thin {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+
+    @include tablet {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+.headline-normal {
+    color: $text-primary;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    @include tablet {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+.detail {
+    color: $primary;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.detail-large {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+
+p.small,
+.small,
+small {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.1px;
+
+    @include tablet {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    &.strong {
+        font-weight: 600;
+    }
+}
+
+p.large,
+.large {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+
+    @include tablet {
+        font-size: 20px;
+        line-height: 31px;
+    }
+}
+
+.light {
+    color: $text-light;
+}
+
+.faded {
+    color: $text-faded;
+}
+
+.italic {
+    font-style: italic;
+}
